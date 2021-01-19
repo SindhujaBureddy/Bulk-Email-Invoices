@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.BEI_test_cases">
+        <methods>
+          <include name="two_filter"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+          <include name="higher_dates"/>
+          <include name="endReport"/>
+          <include name="dashboard"/>
+          <include name="tearDown"/>
+          <include name="configuration"/>
+          <include name="configuration"/>
+          <include name="date_validations"/>
+          <include name="email_sourcing"/>
+        </methods>
+      </class> <!-- com.qa.testcases.BEI_test_cases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
